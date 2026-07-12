@@ -1,0 +1,8 @@
+{
+  "support": "Support",
+  "firstName": "Test",
+  "lastName": "User",
+  "invalidEmail": "invalidEmail",
+  "emailValidationMessage": "Must be valid email. example@yourdomain.com",
+  "requiredFieldMessage": "This field is required"
+}

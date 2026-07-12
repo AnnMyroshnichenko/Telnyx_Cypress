@@ -1,0 +1,9 @@
+{
+  "homeUrl": "/",
+  "financeUrl": "/solutions/financial-services",
+  "contactFormUrl": "/contact-us",
+  "exploreStackSection": "#full-stack-detail",
+  "voiceAiAgentsUrl": "/products/voice-ai-agents",
+  "voiceAiAgentsHeading": "Voice AI Agents",
+  "exploreAiAssistantButton": "Explore Our AI Assistant"
+}

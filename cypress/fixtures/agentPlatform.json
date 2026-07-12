@@ -1,0 +1,13 @@
+{
+  "speechToTextTab": "Speech to Text",
+  "inferenceTab": "Inference",
+  "speechToTextContent": "LIVE TRANSCRIPTION",
+  "models": [
+    "MiniMax M3 MXFP8",
+    "Kimi K2.5",
+    "Qwen3 235B A22B",
+    "GLM 5.2"
+  ],
+  "language": "English",
+  "message": "Hello"
+}
