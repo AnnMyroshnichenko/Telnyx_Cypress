@@ -1,31 +1,13 @@
-# Node
 node_modules/
-
-# Cypress
 cypress/videos/
 cypress/screenshots/
 cypress/downloads/
-
-# Logs
 *.log
-
-# Environment
 .env
 .env.*
-
-# IDE
 .vscode/
 .idea/
-
-# OS
-.DS_Store
 Thumbs.db
-
-# Coverage
 coverage/
-
-# npm
 package-lock.json.bak
-
-# Cypress cache
 .cache/

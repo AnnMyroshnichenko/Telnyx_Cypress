@@ -10,16 +10,12 @@ This repository contains an automated end-to-end UI testing project for the **Te
 
 The automated tests verify key user journeys, including navigation, page content, calls-to-action, and other core website functionality.
 
----
-
 ## Tech Stack
 
 - Cypress
 - JavaScript
 - GitHub Actions
 - Cypress Cloud
-
----
 
 ## Prerequisites
 
@@ -36,8 +32,6 @@ node -v
 npm -v
 git --version
 ```
-
----
 
 ## Installation
 
@@ -59,8 +53,6 @@ cd <repository>
 npm install
 ```
 
----
-
 ## Running Tests
 
 ### Open Cypress Test Runner
@@ -69,15 +61,11 @@ npm install
 npx cypress open
 ```
 
----
-
 ### Run all tests in headless mode
 
 ```bash
 npx cypress run
 ```
-
----
 
 ### Run tests in Chrome
 
@@ -85,15 +73,11 @@ npx cypress run
 npx cypress run --browser chrome
 ```
 
----
-
 ### Run a specific spec
 
 ```bash
 npx cypress run --spec "cypress/e2e/navigation.cy.js"
 ```
-
----
 
 ## Recording Tests in Cypress Cloud
 
@@ -115,8 +99,6 @@ CYPRESS_RECORD_KEY=your_record_key
 npx dotenv -e .env -- cypress run --record --browser chrome
 ```
 
----
-
 ## Continuous Integration
 
 This project includes a GitHub Actions workflow that automatically executes Cypress tests on:
@@ -131,8 +113,6 @@ The workflow:
 - Runs Cypress tests in Chrome
 - Records the execution in Cypress Cloud
 
----
-
 ## GitHub Secrets
 
 The following repository secret is required:
@@ -143,8 +123,6 @@ The following repository secret is required:
 
 Repository Settings → Secrets and variables → Actions
 
----
-
 ## Test Reports
 
 Test execution results are available in **Cypress Cloud**.
@@ -154,8 +132,6 @@ Test execution results are available in **Cypress Cloud**.
 ```
 https://cloud.cypress.io/projects/afzvme/runs
 ```
-
----
 
 ## Test Documentation
 
